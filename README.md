@@ -1,4 +1,4 @@
-# Meu Projeto de Estudos em JavaScript
+# Estudo em JS básico
 
 Este é um projeto pessoal criado para **estudar, testar e praticar JavaScript**, utilizando HTML como interface para visualizar na prática o funcionamento de diferentes recursos da linguagem.
 
