@@ -12,14 +12,14 @@
     <video width="800" height="400" controls>
       <source src="assets\apimenta249-art-Tuca-s-Repository-JS--Just-my-JS-projects.mp4" type="video/mp4" />
     </video>
-
+// adicionei onclick pra poder direcionar até a aba desejada 
     <br />
     <form action="/user/comment" method="post">
       <br />
-      <button type="retornar" class="botoes">
+      <button type="button" class="botoes" onclick="window.open('episodio-anterior.html', '_blank')">
         retornar para o próximo episódio
       </button>
-      <button class="botoes" type="avançar">
+      <button class="botoes" type="button" onclick="window.open('info.html', '_blank')">
         avançar para o próximo episódio</button
       ><br />
 
@@ -37,7 +37,7 @@
 
       <a class="box" href="https://www.google.com"> Clique aqui </a><br />
       <div class="box">Caixa</div>
-      <button onClick="alert('Você clicou no meu botao :O')">Clique aqui</button>
+      <button class="botoes" onClick="alert('Você clicou no meu botao :O')">Clique aqui</button>
 
       <script>
         console.log("Este código só roda neste documento");
