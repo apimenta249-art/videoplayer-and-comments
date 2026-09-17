@@ -26,9 +26,7 @@ let n2 = parseFloat(window.prompt("digite o próximo número"));
 let conta =  n1 + n2
 window.alert("Você passou no teste e aqui o resultado da conta: " + conta)
 
-    if 
-        window.alert("Você não passou no teste :(")
-        return; //parte não terminada, favor não mexer nesse arquivo
+     //parte não terminada, favor não mexer nesse arquivo
 
     
 
