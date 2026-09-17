@@ -12,7 +12,11 @@ let x = nome + comentary
 usuario.value = nome
 comentario.value = comentary
 //logo em seguida coloquei como as duas "id" dos input/label para receberem um valor, sendo esses dois valores as variáveis (var ou let) user e comment
+    
 
+const input = document.getElementById("user");
+    input.disabled = true //travei o input de username para parecer com um usuário que fez login no app
+        
 
 let resultado = document.getElementById("resultado");
 let n1 = parseFloat(window.prompt("digite um número para verificar se você não é um robô"));
@@ -22,6 +26,13 @@ let n2 = parseFloat(window.prompt("digite o próximo número"));
 let conta =  n1 + n2
 window.alert("Você passou no teste e aqui o resultado da conta: " + conta)
 
+    if 
+        window.alert("Você não passou no teste :(")
+        return; //parte não terminada, favor não mexer nesse arquivo
+
+    
+
 resultado.value = conta
-//segue a mesma lógica para essa conta de multiplicação, entretanto como pode ver há apenas um id para duas variáveis, enquanto a outra acima possuia 2 para 2
+//segue a mesma lógica para essa conta de somar, entretanto como pode ver há apenas um id para duas variáveis, enquanto a outra acima possuia 2 para 2
+
 
